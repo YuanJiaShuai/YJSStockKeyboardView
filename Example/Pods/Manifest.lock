@@ -1,0 +1,18 @@
+PODS:
+  - YJSStockKeyboardView (0.1.0):
+    - YJSStockKeyboardView/Core (= 0.1.0)
+  - YJSStockKeyboardView/Core (0.1.0)
+
+DEPENDENCIES:
+  - YJSStockKeyboardView (from `../`)
+
+EXTERNAL SOURCES:
+  YJSStockKeyboardView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YJSStockKeyboardView: 12eefd64fea8e3823581e9e7e461e0c599286a85
+
+PODFILE CHECKSUM: 388f24fd7ffa21cd93232b737d346c404b58e8e5
+
+COCOAPODS: 1.10.0

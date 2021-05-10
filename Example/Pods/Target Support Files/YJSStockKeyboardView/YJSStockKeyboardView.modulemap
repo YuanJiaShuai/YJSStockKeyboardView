@@ -1,0 +1,6 @@
+framework module YJSStockKeyboardView {
+  umbrella header "YJSStockKeyboardView-umbrella.h"
+
+  export *
+  module * { export * }
+}

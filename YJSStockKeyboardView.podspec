@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YJSStockKeyboardView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of YJSStockKeyboardView.'
+  s.version          = '1.0.0'
+  s.summary          = '一款适用于股票应用的键盘框架，一行代码接入，方便使用'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -22,7 +22,6 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/YuanJiaShuai/YJSStockKeyboardView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'YuanJiaShuai' => '1361253662@qq.com' }
   s.source           = { :git => 'https://github.com/YuanJiaShuai/YJSStockKeyboardView.git', :tag => s.version.to_s }
@@ -30,11 +29,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'YJSStockKeyboardView/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'YJSStockKeyboardView' => ['YJSStockKeyboardView/Assets/*.png']
-  # }
+  s.subspec 'Core' do |core|
+    core.source_files = 'YJSStockKeyboardView/*.{h,m}'
+    core.resources = 'YJSStockKeyboardView/YJSStockKeyboardView.bundle'
+  end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

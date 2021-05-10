@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C75A7DE98F84D0FE7910AEFF62531C4 /* YJSKeyboardBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D1A043983ECA3A168022F480B2912D /* YJSKeyboardBaseView.m */; };
+		2287E857C21DA415CBCC07DEB02A4275 /* YJSInputAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A74296EDFBE0015F474EC726C954D5 /* YJSInputAccessoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		239FB6458E34A728F866618D60835831 /* YJSStockKeyboardView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF2253123AD31CB2827CB168ED5EF1A /* YJSStockKeyboardView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		385DE8C9F11FB6EA3B3FE8B2F3A01F48 /* YJSKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA34F0081C8A4C5265CB4FC730A25674 /* YJSKeyboardButton.m */; };
+		4EE5CB43035C4BD1429457BCD1340356 /* YJSKeyboardView.h in Headers */ = {isa = PBXBuildFile; fileRef = B2EBBF350DE92809807254FE692F1AAE /* YJSKeyboardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		583667BFF5A63F6E0822B2B9D91CF7EA /* YJSKeyboardNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = A440103F1DB18A9E7C98EC4C5DEFF6AC /* YJSKeyboardNumberView.m */; };
+		5B21DD5F214CE6B8B82809EC03CC8D93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5CA7795DF8BAAF4A705B79B0DC7AC197 /* YJSStockKeyboardView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C818A1AB6D0A631D238A5354DC38A217 /* YJSStockKeyboardView.bundle */; };
+		6A814E64A16BC1A01BD798BD3AC048F8 /* YJSKeyboardDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F65F0EDA8DFD56A7B746C42F9C0316 /* YJSKeyboardDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B5C62701D56152E769B6D23EC91E390 /* YJSKeyboardNumberView.h in Headers */ = {isa = PBXBuildFile; fileRef = F066437FD5C7C97537C3DA0BA2BE982A /* YJSKeyboardNumberView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D295D74A907CDC02A8D5F0A2FDA4ED1 /* Pods-YJSStockKeyboardView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AADB53B630C5328A0A819548F190295 /* Pods-YJSStockKeyboardView_Tests-dummy.m */; };
+		72BA083D3C8FA6AAA477F36B0637DD5E /* Pods-YJSStockKeyboardView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BC3248A4E83E789317A3E2CAD441701 /* Pods-YJSStockKeyboardView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F5354DBC6AEF65D1590F6A7E2689304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		883B8F5A70DC3EB521F3A067438DBB00 /* YJSKeyboardABCView.h in Headers */ = {isa = PBXBuildFile; fileRef = 026EAF10A777412079E78388744E96DF /* YJSKeyboardABCView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE70BB808271A2D56F12AE4FCDE3AF41 /* YJSKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2482E9DFE665884C90578D60E461980B /* YJSKeyboardView.m */; };
+		AECA0CDDB29016245CFEE0C75701950F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BFC352FDF408F7C1CB629C4BEEE3A8C3 /* YJSStockKeyboardView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A95A5D8346696F80A75255A2A304628B /* YJSStockKeyboardView-dummy.m */; };
+		C9D359872A57336F9E7CC35CCBCB1595 /* YJSInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDBC13B4036E527EA27A8C01F176FA /* YJSInputAccessoryView.m */; };
+		E36E1786E8B37701EAB14C7ABF20934E /* YJSKeyboardButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A108C23252298B54D99C9A9CBC78DF /* YJSKeyboardButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9BF495775E2EF55A2F2A9FBBCD79AA /* Pods-YJSStockKeyboardView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE20B832226CB546EE8630DC5CC25860 /* Pods-YJSStockKeyboardView_Example-dummy.m */; };
+		EDE8F3C4745EB3857D8F269854321F73 /* YJSKeyboardABCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D30009073FA13449B5E0B1BC5F988 /* YJSKeyboardABCView.m */; };
+		F1DBF291CCE278CE6D5A022C096A076B /* YJSKeyboardBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 96725D0DFE4511187E96CEC91C5CDDEB /* YJSKeyboardBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5D785FB9C0A3A4CA33E53EFDA95429C /* Pods-YJSStockKeyboardView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7820D46858CA329787BB455145E7546A /* Pods-YJSStockKeyboardView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A784ADA429B79435C9C06BDF89AC387E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5B51B61A0F4458DF66ECB3CA15B69B4;
+			remoteInfo = YJSStockKeyboardView;
+		};
+		A9BE93F39F342E6C98DE83CFA3CCC1FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5391633D48DB331A55BC4F472A169F52;
+			remoteInfo = "Pods-YJSStockKeyboardView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026EAF10A777412079E78388744E96DF /* YJSKeyboardABCView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJSKeyboardABCView.h; path = YJSStockKeyboardView/YJSKeyboardABCView.h; sourceTree = "<group>"; };
+		04450C264A08037A3FAAF9C11A5CAA31 /* Pods-YJSStockKeyboardView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJSStockKeyboardView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FD84E031E28370D8F3B1997D7939CFC /* YJSStockKeyboardView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YJSStockKeyboardView.framework; path = YJSStockKeyboardView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0119AC04A06DB14DF9387BB34625AA /* Pods-YJSStockKeyboardView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJSStockKeyboardView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		23343BD7F399DB3424B9E199B7A901A2 /* Pods-YJSStockKeyboardView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YJSStockKeyboardView_Example.modulemap"; sourceTree = "<group>"; };
+		2482E9DFE665884C90578D60E461980B /* YJSKeyboardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJSKeyboardView.m; path = YJSStockKeyboardView/YJSKeyboardView.m; sourceTree = "<group>"; };
+		2E8D30009073FA13449B5E0B1BC5F988 /* YJSKeyboardABCView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJSKeyboardABCView.m; path = YJSStockKeyboardView/YJSKeyboardABCView.m; sourceTree = "<group>"; };
+		2FC91EDC352EE95DC0F0522344E01E71 /* Pods-YJSStockKeyboardView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJSStockKeyboardView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		31DA2322C68077ED411B5B0E5F6231CB /* Pods-YJSStockKeyboardView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJSStockKeyboardView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3FEDBC13B4036E527EA27A8C01F176FA /* YJSInputAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJSInputAccessoryView.m; path = YJSStockKeyboardView/YJSInputAccessoryView.m; sourceTree = "<group>"; };
+		445CC1FFC5DC96E7B59FDD43FCC8F455 /* Pods-YJSStockKeyboardView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJSStockKeyboardView_Example-Info.plist"; sourceTree = "<group>"; };
+		4D1812B822C4948D9FF92311A6588AC3 /* YJSStockKeyboardView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJSStockKeyboardView.release.xcconfig; sourceTree = "<group>"; };
+		4DBD872E0334CB4009F3AACC7A46B0A7 /* YJSStockKeyboardView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YJSStockKeyboardView.modulemap; sourceTree = "<group>"; };
+		6D7362938CA2864A6AA6C232D6B8E965 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7820D46858CA329787BB455145E7546A /* Pods-YJSStockKeyboardView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YJSStockKeyboardView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7AADB53B630C5328A0A819548F190295 /* Pods-YJSStockKeyboardView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJSStockKeyboardView_Tests-dummy.m"; sourceTree = "<group>"; };
+		7DF2253123AD31CB2827CB168ED5EF1A /* YJSStockKeyboardView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJSStockKeyboardView-umbrella.h"; sourceTree = "<group>"; };
+		80A108C23252298B54D99C9A9CBC78DF /* YJSKeyboardButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJSKeyboardButton.h; path = YJSStockKeyboardView/YJSKeyboardButton.h; sourceTree = "<group>"; };
+		8A2E4E04642DB91B9CFD1B27702EBE69 /* Pods-YJSStockKeyboardView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJSStockKeyboardView_Tests-Info.plist"; sourceTree = "<group>"; };
+		96725D0DFE4511187E96CEC91C5CDDEB /* YJSKeyboardBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJSKeyboardBaseView.h; path = YJSStockKeyboardView/YJSKeyboardBaseView.h; sourceTree = "<group>"; };
+		96DD5013BD133A230B62FB80B5CA926C /* Pods_YJSStockKeyboardView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJSStockKeyboardView_Example.framework; path = "Pods-YJSStockKeyboardView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D1A043983ECA3A168022F480B2912D /* YJSKeyboardBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJSKeyboardBaseView.m; path = YJSStockKeyboardView/YJSKeyboardBaseView.m; sourceTree = "<group>"; };
+		9BC3248A4E83E789317A3E2CAD441701 /* Pods-YJSStockKeyboardView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YJSStockKeyboardView_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A440103F1DB18A9E7C98EC4C5DEFF6AC /* YJSKeyboardNumberView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJSKeyboardNumberView.m; path = YJSStockKeyboardView/YJSKeyboardNumberView.m; sourceTree = "<group>"; };
+		A740C28641BC3FA8FC5A18D2887C447E /* Pods-YJSStockKeyboardView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJSStockKeyboardView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A95A5D8346696F80A75255A2A304628B /* YJSStockKeyboardView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YJSStockKeyboardView-dummy.m"; sourceTree = "<group>"; };
+		A9BC64F1C7B96A30B3F1B99CF7F51125 /* YJSStockKeyboardView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YJSStockKeyboardView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD6AFC69569FAE81DAE36D76BD37FCD6 /* Pods-YJSStockKeyboardView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJSStockKeyboardView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B2EBBF350DE92809807254FE692F1AAE /* YJSKeyboardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJSKeyboardView.h; path = YJSStockKeyboardView/YJSKeyboardView.h; sourceTree = "<group>"; };
+		B2FAC18ED99370694CD4332DDB0102C5 /* Pods-YJSStockKeyboardView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJSStockKeyboardView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BA34F0081C8A4C5265CB4FC730A25674 /* YJSKeyboardButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJSKeyboardButton.m; path = YJSStockKeyboardView/YJSKeyboardButton.m; sourceTree = "<group>"; };
+		BB89352B2428A15712256EE718C27E0D /* YJSStockKeyboardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJSStockKeyboardView.debug.xcconfig; sourceTree = "<group>"; };
+		BD7B86F6BE4A2FEF025CD178656C4FCB /* YJSStockKeyboardView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJSStockKeyboardView-prefix.pch"; sourceTree = "<group>"; };
+		C2A74296EDFBE0015F474EC726C954D5 /* YJSInputAccessoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJSInputAccessoryView.h; path = YJSStockKeyboardView/YJSInputAccessoryView.h; sourceTree = "<group>"; };
+		C54EF9C7569F8A3BBF8A096B20179A94 /* Pods-YJSStockKeyboardView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YJSStockKeyboardView_Tests.modulemap"; sourceTree = "<group>"; };
+		C818A1AB6D0A631D238A5354DC38A217 /* YJSStockKeyboardView.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = YJSStockKeyboardView.bundle; path = YJSStockKeyboardView/YJSStockKeyboardView.bundle; sourceTree = "<group>"; };
+		CAC8DD2B19C7E3F5A1A70E70D057856F /* Pods-YJSStockKeyboardView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJSStockKeyboardView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBFBD2CA50D97E207444677554378360 /* Pods_YJSStockKeyboardView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJSStockKeyboardView_Tests.framework; path = "Pods-YJSStockKeyboardView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE20B832226CB546EE8630DC5CC25860 /* Pods-YJSStockKeyboardView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJSStockKeyboardView_Example-dummy.m"; sourceTree = "<group>"; };
+		DA80EE7D6D2279B55659E7EB9A4BD481 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EC5A928ACF5BAC813886D4DAF0EF21ED /* YJSStockKeyboardView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YJSStockKeyboardView-Info.plist"; sourceTree = "<group>"; };
+		F066437FD5C7C97537C3DA0BA2BE982A /* YJSKeyboardNumberView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJSKeyboardNumberView.h; path = YJSStockKeyboardView/YJSKeyboardNumberView.h; sourceTree = "<group>"; };
+		F4F65F0EDA8DFD56A7B746C42F9C0316 /* YJSKeyboardDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJSKeyboardDefine.h; path = YJSStockKeyboardView/YJSKeyboardDefine.h; sourceTree = "<group>"; };
+		F8258DBCCF1AAE2FB3CF3F35C69D947B /* Pods-YJSStockKeyboardView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJSStockKeyboardView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E56ED92B5EFB0DA646B569C9A29E9F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B21DD5F214CE6B8B82809EC03CC8D93 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2A5B56ABFE814A59C9FD82C1D8CE5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECA0CDDB29016245CFEE0C75701950F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E68DE3BB776D386D3FAB1BD661F8A1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5354DBC6AEF65D1590F6A7E2689304 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FCA64360FE73ED9D53804961B72134 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96DD5013BD133A230B62FB80B5CA926C /* Pods_YJSStockKeyboardView_Example.framework */,
+				CBFBD2CA50D97E207444677554378360 /* Pods_YJSStockKeyboardView_Tests.framework */,
+				0FD84E031E28370D8F3B1997D7939CFC /* YJSStockKeyboardView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C44C602121C509B6F07F41AB5A125DF /* Pods-YJSStockKeyboardView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				23343BD7F399DB3424B9E199B7A901A2 /* Pods-YJSStockKeyboardView_Example.modulemap */,
+				04450C264A08037A3FAAF9C11A5CAA31 /* Pods-YJSStockKeyboardView_Example-acknowledgements.markdown */,
+				CAC8DD2B19C7E3F5A1A70E70D057856F /* Pods-YJSStockKeyboardView_Example-acknowledgements.plist */,
+				CE20B832226CB546EE8630DC5CC25860 /* Pods-YJSStockKeyboardView_Example-dummy.m */,
+				B2FAC18ED99370694CD4332DDB0102C5 /* Pods-YJSStockKeyboardView_Example-frameworks.sh */,
+				445CC1FFC5DC96E7B59FDD43FCC8F455 /* Pods-YJSStockKeyboardView_Example-Info.plist */,
+				9BC3248A4E83E789317A3E2CAD441701 /* Pods-YJSStockKeyboardView_Example-umbrella.h */,
+				1B0119AC04A06DB14DF9387BB34625AA /* Pods-YJSStockKeyboardView_Example.debug.xcconfig */,
+				AD6AFC69569FAE81DAE36D76BD37FCD6 /* Pods-YJSStockKeyboardView_Example.release.xcconfig */,
+			);
+			name = "Pods-YJSStockKeyboardView_Example";
+			path = "Target Support Files/Pods-YJSStockKeyboardView_Example";
+			sourceTree = "<group>";
+		};
+		3F19EEE89834813C9EBB5B968F619296 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				670DAFAB94212E00E7B9A34D76442A66 /* YJSStockKeyboardView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4A5EDD8DC910ED0B627AE58D808872B4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C44C602121C509B6F07F41AB5A125DF /* Pods-YJSStockKeyboardView_Example */,
+				F713441D654E17AD84A8E655C41FFFB9 /* Pods-YJSStockKeyboardView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		670DAFAB94212E00E7B9A34D76442A66 /* YJSStockKeyboardView */ = {
+			isa = PBXGroup;
+			children = (
+				7DFB3C099561C4CF4CAB057D0393FDFC /* Core */,
+				E383E7688634CEE91BF83073AC43FB9C /* Pod */,
+				F6D129EFC0C7FDDC5DDB7CA2CB13216C /* Support Files */,
+			);
+			name = YJSStockKeyboardView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DFB3C099561C4CF4CAB057D0393FDFC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C2A74296EDFBE0015F474EC726C954D5 /* YJSInputAccessoryView.h */,
+				3FEDBC13B4036E527EA27A8C01F176FA /* YJSInputAccessoryView.m */,
+				026EAF10A777412079E78388744E96DF /* YJSKeyboardABCView.h */,
+				2E8D30009073FA13449B5E0B1BC5F988 /* YJSKeyboardABCView.m */,
+				96725D0DFE4511187E96CEC91C5CDDEB /* YJSKeyboardBaseView.h */,
+				99D1A043983ECA3A168022F480B2912D /* YJSKeyboardBaseView.m */,
+				80A108C23252298B54D99C9A9CBC78DF /* YJSKeyboardButton.h */,
+				BA34F0081C8A4C5265CB4FC730A25674 /* YJSKeyboardButton.m */,
+				F4F65F0EDA8DFD56A7B746C42F9C0316 /* YJSKeyboardDefine.h */,
+				F066437FD5C7C97537C3DA0BA2BE982A /* YJSKeyboardNumberView.h */,
+				A440103F1DB18A9E7C98EC4C5DEFF6AC /* YJSKeyboardNumberView.m */,
+				B2EBBF350DE92809807254FE692F1AAE /* YJSKeyboardView.h */,
+				2482E9DFE665884C90578D60E461980B /* YJSKeyboardView.m */,
+				C818A1AB6D0A631D238A5354DC38A217 /* YJSStockKeyboardView.bundle */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3F19EEE89834813C9EBB5B968F619296 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				08FCA64360FE73ED9D53804961B72134 /* Products */,
+				4A5EDD8DC910ED0B627AE58D808872B4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E383E7688634CEE91BF83073AC43FB9C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6D7362938CA2864A6AA6C232D6B8E965 /* LICENSE */,
+				DA80EE7D6D2279B55659E7EB9A4BD481 /* README.md */,
+				A9BC64F1C7B96A30B3F1B99CF7F51125 /* YJSStockKeyboardView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F6D129EFC0C7FDDC5DDB7CA2CB13216C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DBD872E0334CB4009F3AACC7A46B0A7 /* YJSStockKeyboardView.modulemap */,
+				A95A5D8346696F80A75255A2A304628B /* YJSStockKeyboardView-dummy.m */,
+				EC5A928ACF5BAC813886D4DAF0EF21ED /* YJSStockKeyboardView-Info.plist */,
+				BD7B86F6BE4A2FEF025CD178656C4FCB /* YJSStockKeyboardView-prefix.pch */,
+				7DF2253123AD31CB2827CB168ED5EF1A /* YJSStockKeyboardView-umbrella.h */,
+				BB89352B2428A15712256EE718C27E0D /* YJSStockKeyboardView.debug.xcconfig */,
+				4D1812B822C4948D9FF92311A6588AC3 /* YJSStockKeyboardView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YJSStockKeyboardView";
+			sourceTree = "<group>";
+		};
+		F713441D654E17AD84A8E655C41FFFB9 /* Pods-YJSStockKeyboardView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C54EF9C7569F8A3BBF8A096B20179A94 /* Pods-YJSStockKeyboardView_Tests.modulemap */,
+				31DA2322C68077ED411B5B0E5F6231CB /* Pods-YJSStockKeyboardView_Tests-acknowledgements.markdown */,
+				A740C28641BC3FA8FC5A18D2887C447E /* Pods-YJSStockKeyboardView_Tests-acknowledgements.plist */,
+				7AADB53B630C5328A0A819548F190295 /* Pods-YJSStockKeyboardView_Tests-dummy.m */,
+				8A2E4E04642DB91B9CFD1B27702EBE69 /* Pods-YJSStockKeyboardView_Tests-Info.plist */,
+				7820D46858CA329787BB455145E7546A /* Pods-YJSStockKeyboardView_Tests-umbrella.h */,
+				2FC91EDC352EE95DC0F0522344E01E71 /* Pods-YJSStockKeyboardView_Tests.debug.xcconfig */,
+				F8258DBCCF1AAE2FB3CF3F35C69D947B /* Pods-YJSStockKeyboardView_Tests.release.xcconfig */,
+			);
+			name = "Pods-YJSStockKeyboardView_Tests";
+			path = "Target Support Files/Pods-YJSStockKeyboardView_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15DC82085DF60CFAE1A0623731293E72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2287E857C21DA415CBCC07DEB02A4275 /* YJSInputAccessoryView.h in Headers */,
+				883B8F5A70DC3EB521F3A067438DBB00 /* YJSKeyboardABCView.h in Headers */,
+				F1DBF291CCE278CE6D5A022C096A076B /* YJSKeyboardBaseView.h in Headers */,
+				E36E1786E8B37701EAB14C7ABF20934E /* YJSKeyboardButton.h in Headers */,
+				6A814E64A16BC1A01BD798BD3AC048F8 /* YJSKeyboardDefine.h in Headers */,
+				6B5C62701D56152E769B6D23EC91E390 /* YJSKeyboardNumberView.h in Headers */,
+				4EE5CB43035C4BD1429457BCD1340356 /* YJSKeyboardView.h in Headers */,
+				239FB6458E34A728F866618D60835831 /* YJSStockKeyboardView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B26BFE30C5F1A2D6F0F0D21BFC5093 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D785FB9C0A3A4CA33E53EFDA95429C /* Pods-YJSStockKeyboardView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4EF99E102FC30CDC58DC55617C3F73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BA083D3C8FA6AAA477F36B0637DD5E /* Pods-YJSStockKeyboardView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5391633D48DB331A55BC4F472A169F52 /* Pods-YJSStockKeyboardView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2189D5E3D9241681E8AFED7E1463B40D /* Build configuration list for PBXNativeTarget "Pods-YJSStockKeyboardView_Example" */;
+			buildPhases = (
+				EB4EF99E102FC30CDC58DC55617C3F73 /* Headers */,
+				95EFBE00545E201A59C3A39D70143E82 /* Sources */,
+				E68DE3BB776D386D3FAB1BD661F8A1B8 /* Frameworks */,
+				68EBB3E172FF4B4FAA2012F74FBEA9DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3D457B5968DB547049A2D4E32C6754F /* PBXTargetDependency */,
+			);
+			name = "Pods-YJSStockKeyboardView_Example";
+			productName = "Pods-YJSStockKeyboardView_Example";
+			productReference = 96DD5013BD133A230B62FB80B5CA926C /* Pods_YJSStockKeyboardView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5896FE961F2560D90E58FF958960D8C1 /* Pods-YJSStockKeyboardView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D271840235D97CF580B8C774A16B6725 /* Build configuration list for PBXNativeTarget "Pods-YJSStockKeyboardView_Tests" */;
+			buildPhases = (
+				24B26BFE30C5F1A2D6F0F0D21BFC5093 /* Headers */,
+				41A35EFC3C7B4018E10BC4647453A0F4 /* Sources */,
+				7E56ED92B5EFB0DA646B569C9A29E9F9 /* Frameworks */,
+				DEBB6ABCF45C6DF843B83F61D218DE3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BD73C64E361BC10BC0EF5865F1E2CDC /* PBXTargetDependency */,
+			);
+			name = "Pods-YJSStockKeyboardView_Tests";
+			productName = "Pods-YJSStockKeyboardView_Tests";
+			productReference = CBFBD2CA50D97E207444677554378360 /* Pods_YJSStockKeyboardView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5B51B61A0F4458DF66ECB3CA15B69B4 /* YJSStockKeyboardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB03885DA15BEA7EC81447B598222AA /* Build configuration list for PBXNativeTarget "YJSStockKeyboardView" */;
+			buildPhases = (
+				15DC82085DF60CFAE1A0623731293E72 /* Headers */,
+				23C3B3354931D02873554C282E68A92C /* Sources */,
+				9A2A5B56ABFE814A59C9FD82C1D8CE5D /* Frameworks */,
+				5488F76E4950CA1194FB4E019455ABB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJSStockKeyboardView;
+			productName = YJSStockKeyboardView;
+			productReference = 0FD84E031E28370D8F3B1997D7939CFC /* YJSStockKeyboardView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 08FCA64360FE73ED9D53804961B72134 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5391633D48DB331A55BC4F472A169F52 /* Pods-YJSStockKeyboardView_Example */,
+				5896FE961F2560D90E58FF958960D8C1 /* Pods-YJSStockKeyboardView_Tests */,
+				B5B51B61A0F4458DF66ECB3CA15B69B4 /* YJSStockKeyboardView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5488F76E4950CA1194FB4E019455ABB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA7795DF8BAAF4A705B79B0DC7AC197 /* YJSStockKeyboardView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68EBB3E172FF4B4FAA2012F74FBEA9DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBB6ABCF45C6DF843B83F61D218DE3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23C3B3354931D02873554C282E68A92C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D359872A57336F9E7CC35CCBCB1595 /* YJSInputAccessoryView.m in Sources */,
+				EDE8F3C4745EB3857D8F269854321F73 /* YJSKeyboardABCView.m in Sources */,
+				1C75A7DE98F84D0FE7910AEFF62531C4 /* YJSKeyboardBaseView.m in Sources */,
+				385DE8C9F11FB6EA3B3FE8B2F3A01F48 /* YJSKeyboardButton.m in Sources */,
+				583667BFF5A63F6E0822B2B9D91CF7EA /* YJSKeyboardNumberView.m in Sources */,
+				AE70BB808271A2D56F12AE4FCDE3AF41 /* YJSKeyboardView.m in Sources */,
+				BFC352FDF408F7C1CB629C4BEEE3A8C3 /* YJSStockKeyboardView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A35EFC3C7B4018E10BC4647453A0F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D295D74A907CDC02A8D5F0A2FDA4ED1 /* Pods-YJSStockKeyboardView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EFBE00545E201A59C3A39D70143E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9BF495775E2EF55A2F2A9FBBCD79AA /* Pods-YJSStockKeyboardView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BD73C64E361BC10BC0EF5865F1E2CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YJSStockKeyboardView_Example";
+			target = 5391633D48DB331A55BC4F472A169F52 /* Pods-YJSStockKeyboardView_Example */;
+			targetProxy = A9BE93F39F342E6C98DE83CFA3CCC1FF /* PBXContainerItemProxy */;
+		};
+		B3D457B5968DB547049A2D4E32C6754F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YJSStockKeyboardView;
+			target = B5B51B61A0F4458DF66ECB3CA15B69B4 /* YJSStockKeyboardView */;
+			targetProxy = A784ADA429B79435C9C06BDF89AC387E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		145A6B59EFE2A89FE5AC938FADED9282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0119AC04A06DB14DF9387BB34625AA /* Pods-YJSStockKeyboardView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YJSStockKeyboardView_Example/Pods-YJSStockKeyboardView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YJSStockKeyboardView_Example/Pods-YJSStockKeyboardView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		36D77A895DFE91F28469B28AE4B200BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB89352B2428A15712256EE718C27E0D /* YJSStockKeyboardView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YJSStockKeyboardView/YJSStockKeyboardView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YJSStockKeyboardView/YJSStockKeyboardView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YJSStockKeyboardView/YJSStockKeyboardView.modulemap";
+				PRODUCT_MODULE_NAME = YJSStockKeyboardView;
+				PRODUCT_NAME = YJSStockKeyboardView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		616D9831AF04C41CF77DCEFC47D815E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD6AFC69569FAE81DAE36D76BD37FCD6 /* Pods-YJSStockKeyboardView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YJSStockKeyboardView_Example/Pods-YJSStockKeyboardView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YJSStockKeyboardView_Example/Pods-YJSStockKeyboardView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827EC8B862B11F4398D835E8CCDCEFD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D1812B822C4948D9FF92311A6588AC3 /* YJSStockKeyboardView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YJSStockKeyboardView/YJSStockKeyboardView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YJSStockKeyboardView/YJSStockKeyboardView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YJSStockKeyboardView/YJSStockKeyboardView.modulemap";
+				PRODUCT_MODULE_NAME = YJSStockKeyboardView;
+				PRODUCT_NAME = YJSStockKeyboardView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D23092BB6B88CE171308ADB86A9A9602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8258DBCCF1AAE2FB3CF3F35C69D947B /* Pods-YJSStockKeyboardView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YJSStockKeyboardView_Tests/Pods-YJSStockKeyboardView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YJSStockKeyboardView_Tests/Pods-YJSStockKeyboardView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3B81A4B3EE3CA34D63BF53AC1685C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FC91EDC352EE95DC0F0522344E01E71 /* Pods-YJSStockKeyboardView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YJSStockKeyboardView_Tests/Pods-YJSStockKeyboardView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YJSStockKeyboardView_Tests/Pods-YJSStockKeyboardView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2189D5E3D9241681E8AFED7E1463B40D /* Build configuration list for PBXNativeTarget "Pods-YJSStockKeyboardView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145A6B59EFE2A89FE5AC938FADED9282 /* Debug */,
+				616D9831AF04C41CF77DCEFC47D815E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D271840235D97CF580B8C774A16B6725 /* Build configuration list for PBXNativeTarget "Pods-YJSStockKeyboardView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B81A4B3EE3CA34D63BF53AC1685C9B /* Debug */,
+				D23092BB6B88CE171308ADB86A9A9602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB03885DA15BEA7EC81447B598222AA /* Build configuration list for PBXNativeTarget "YJSStockKeyboardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D77A895DFE91F28469B28AE4B200BF /* Debug */,
+				827EC8B862B11F4398D835E8CCDCEFD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

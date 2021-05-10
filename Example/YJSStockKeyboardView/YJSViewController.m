@@ -7,8 +7,10 @@
 //
 
 #import "YJSViewController.h"
+#import "YJSKeyboardView.h"
 
 @interface YJSViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *tf;
 
 @end
 
@@ -18,6 +20,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [YJSKeyboardView directToReverseTextFiledInputView:self.tf keyboardViewType:YJSKeyboardViewType_Custom_Number];
 }
 
 - (void)didReceiveMemoryWarning

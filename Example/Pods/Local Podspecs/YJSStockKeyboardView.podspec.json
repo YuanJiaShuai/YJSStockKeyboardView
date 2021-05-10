@@ -1,0 +1,28 @@
+{
+  "name": "YJSStockKeyboardView",
+  "version": "0.1.0",
+  "summary": "一款适用于股票应用的键盘框架，一行代码接入，方便使用",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/YuanJiaShuai/YJSStockKeyboardView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "YuanJiaShuai": "1361253662@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/YuanJiaShuai/YJSStockKeyboardView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "YJSStockKeyboardView/*.{h,m}",
+      "resources": "YJSStockKeyboardView/YJSStockKeyboardView.bundle"
+    }
+  ]
+}
