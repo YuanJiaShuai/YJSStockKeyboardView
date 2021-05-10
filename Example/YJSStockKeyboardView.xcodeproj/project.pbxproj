@@ -21,6 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		7175A64B2649043F007589A1 /* IMG_1373.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7175A6482649043F007589A1 /* IMG_1373.PNG */; };
+		7175A64C2649043F007589A1 /* IMG_1374.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7175A6492649043F007589A1 /* IMG_1374.PNG */; };
+		7175A64D2649043F007589A1 /* IMG_1375.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7175A64A2649043F007589A1 /* IMG_1375.PNG */; };
 		722C171C82E200765D9039D2 /* Pods_YJSStockKeyboardView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130E9A2FF44A44205F5E1BF5 /* Pods_YJSStockKeyboardView_Tests.framework */; };
 		7DB9DAB7B195EA510789E49E /* Pods_YJSStockKeyboardView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7FAB08E386B67B9B691DC6 /* Pods_YJSStockKeyboardView_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
@@ -59,6 +62,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7175A6482649043F007589A1 /* IMG_1373.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1373.PNG; sourceTree = "<group>"; };
+		7175A6492649043F007589A1 /* IMG_1374.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1374.PNG; sourceTree = "<group>"; };
+		7175A64A2649043F007589A1 /* IMG_1375.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1375.PNG; sourceTree = "<group>"; };
 		7BDE8FB3BCB60DB7EC56CA80 /* Pods-YJSStockKeyboardView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJSStockKeyboardView_Tests.release.xcconfig"; path = "Target Support Files/Pods-YJSStockKeyboardView_Tests/Pods-YJSStockKeyboardView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7C0AF14D33368050AA9457DC /* Pods-YJSStockKeyboardView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJSStockKeyboardView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YJSStockKeyboardView_Tests/Pods-YJSStockKeyboardView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C7FAB08E386B67B9B691DC6 /* Pods_YJSStockKeyboardView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJSStockKeyboardView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,6 +187,9 @@
 				AA0C73C6C22C7483E4172EBA /* YJSStockKeyboardView.podspec */,
 				F6C77FA0E67314F6DA6199B9 /* README.md */,
 				434A5254C02E3541AF3DE9BE /* LICENSE */,
+				7175A6482649043F007589A1 /* IMG_1373.PNG */,
+				7175A6492649043F007589A1 /* IMG_1374.PNG */,
+				7175A64A2649043F007589A1 /* IMG_1375.PNG */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -283,6 +292,9 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				7175A64D2649043F007589A1 /* IMG_1375.PNG in Resources */,
+				7175A64B2649043F007589A1 /* IMG_1373.PNG in Resources */,
+				7175A64C2649043F007589A1 /* IMG_1374.PNG in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
